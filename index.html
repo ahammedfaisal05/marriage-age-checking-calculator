@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM & BOM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-header">
+                        <h2>Check Marriage Qualification</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="msg"></div>
+                        <form id="age_form">
+                            <div class="my-3">
+                                <label for=""> Your Name -</label>
+                                <input name="name" class="form-control" type="text" placeholder="write name">                          
+                            </div>
+                            <div class="my-3">
+                                <label for=""> Your Age -</label>
+                                <input name="age" class="form-control" type="text" placeholder="write age">                          
+                            </div>
+                            <div class="my-3">
+                                <label for=""> Your Gender</label><br><br>
+                                <label>
+                                    <input name="gender" value="Male" type="radio">
+                                    Male
+                                </label>
+                                <label>
+                                    <input name="gender" value="Female" type="radio">
+                                    Female
+                                </label>
+                            </div>
+                            <div class="my-3">
+                                <input class="btn btn-primary" type="submit" value="Check">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                        <div class="msg-long">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./app/functions.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
